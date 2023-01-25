@@ -6,6 +6,7 @@
     }
     #login {
         width: 90vw;
+        height: 280px;
     }
     #login > #foto {
         float: left;
@@ -18,6 +19,16 @@
     }
     #formulario > p {
         font-size: 1.2em;
+        margin: 15px 0px;
+    }
+    form > p > input[type=email] {
+        width: 92%;
+        height: 25px;
+    }
+    
+    form > p > input[type=password] {
+        width: 92%;
+        height: 25px;
     }
 }
 
@@ -27,6 +38,7 @@
     }
     #login {
         width: 950px;
+        height: 280px;
     }
     #login > #foto {
         float: left;
@@ -38,6 +50,16 @@
         width: 50%;
     }
     #formulario > p {
-        font-size: 1.4em;
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+    form > p > input[type=email] {
+        width: 93%;
+        height: 25px;
+    }
+    
+    form > p > input[type=password] {
+        width: 93%;
+        height: 25px;
     }
 }
